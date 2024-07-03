@@ -5,7 +5,7 @@ date:   2024-06-30 11:40:34 -0500
 tags: chatGPT working
 ---
 
-I used to rely heavily on Google to search for answers to technical problems. However, I've found a new tool that has significantly boosted my efficiency in solving problems and learning new technical skills: ChatGPT. In this post, I will explain how I've integrated ChatGPT into my workflow and the steps I follow to approach solutions using this AI assistant.
+I used to rely heavily on Google to search for answers to technical problems. However, since the advent of ChatGPT, it has significantly boosted my efficiency in solving problems and learning new technical skills: ChatGPT. In this post, I will explain how I've integrated ChatGPT into my workflow and the steps I follow to approach solutions using this AI assistant.
 
 ## Step 1: Question Definition
 The first step is to determine whether or not to use ChatGPT to solve a particular problem. I use the following matrix to make this decision:
@@ -31,4 +31,4 @@ If I'm in doubt about an answer, I usually ask more specific follow-up questions
 ## Step 3: Learning from the Answers
 After finding a solution, I summarize what I've learned from the problem. I take notes on what I should study further and often consider writing a blog post about it.
 
-You know what? This blog post was initially drafted by me and then refined by ChatGPT.
+You know what? This blog post was initially drafted by me and then refined by ChatGPT. Check the difference [here](https://github.com/bjchris32/bjchris32.github.io/commit/812bb50aea29ad072c257eec7a1fbbc219440ddf). 😎
