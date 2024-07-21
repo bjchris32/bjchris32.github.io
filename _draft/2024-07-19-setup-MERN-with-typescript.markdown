@@ -44,7 +44,21 @@ npm run dev
 
 
 
+* set up mongodb on docker and connect through mongoose
+  * need to create user in admin and test it with mongoosh
+{% highlight shell %}
+mongosh mongodb://root:example@127.0.0.1:27017/admin
+{% endhighlight %}
 
+  * connect through mongoose in nodejs
+{% highlight javascript %}
+const mongoURI = process.env.MONGO_URI || 'mongodb://root:example@127.0.0.1:27017/admin?authSource=admin';
+mongoose.connect(mongoURI).then(() => {
+  console.log('Connected to MongoDB');
+}).catch((err: any) => {
+  console.error('Failed to connect to MongoDB', err);
+});
+{% endhighlight %}
 
 
 
