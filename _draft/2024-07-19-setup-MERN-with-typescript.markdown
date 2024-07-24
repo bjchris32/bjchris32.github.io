@@ -47,12 +47,12 @@ npm run dev
 * set up mongodb on docker and connect through mongoose
   * need to create user in admin and test it with mongoosh
 {% highlight shell %}
-mongosh mongodb://root:example@127.0.0.1:27017/admin
+mongosh mongodb://mongodb:27017/mydatabase
 {% endhighlight %}
 
   * connect through mongoose in nodejs
 {% highlight javascript %}
-const mongoURI = process.env.MONGO_URI || 'mongodb://root:example@127.0.0.1:27017/admin?authSource=admin';
+const mongoURI = process.env.MONGO_URI || 'mongodb://mongodb:27017/mydatabase';
 mongoose.connect(mongoURI).then(() => {
   console.log('Connected to MongoDB');
 }).catch((err: any) => {
@@ -60,8 +60,14 @@ mongoose.connect(mongoURI).then(() => {
 });
 {% endhighlight %}
 
+* dockerize server
+docker build -t habicise_server .
 
+* use network in docker-compose file to communicate
 
+* dockerize client
+  * do not need to use nginx in developmenet
+  * separate dev and prod environment
 
 
 
