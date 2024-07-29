@@ -24,6 +24,14 @@ I am designing a database schema for habit object to record the logs.
   It is possible to that a users would have multi-million records. But, the habit should keep in the database for up to 10000 years. It would be an overkill to use one-to-squillions. As a result, we use one-to-many to explain the relationship between habit and logs.
 
 
+
+## Take away:
+  * Takeaway from the rules of thumb in MongoDB design
+  > * Embed the N side if the cardinality is one-to-few and there is no need to access the embedded object outside the context of the parent object.
+  > * Use an array of references to the N-side objects if the cardinality is one-to-many or if the N-side objects should stand alone for any reasons.
+  > * Use a reference to the One-side in the N-side objects if the cardinality is one-to-squillions.
+
+
 ## reference resources:
 
 [MongoDB schema best practice]: https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design
