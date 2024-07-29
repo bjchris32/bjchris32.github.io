@@ -23,7 +23,8 @@ I am designing a database schema for habit object to record the logs.
       * do not need to implement the ids in the parent. Make the parent id in the child instead.
   It is possible to that a users would have multi-million records. But, the habit should keep in the database for up to 10000 years. It would be an overkill to use one-to-squillions. As a result, we use one-to-many to explain the relationship between habit and logs.
 
-
+  * When and which side should we denormalize in one-to-many relationship?
+    * it depends on read-to-write ratio
 
 ## Take away:
   * Takeaway from the rules of thumb in MongoDB design
