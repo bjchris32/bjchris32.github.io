@@ -32,7 +32,7 @@ Some topics that interst me are:
 - [ ] [Feature Engineering](https://www.kaggle.com/learn/feature-engineering): est. 5 hours
 - [ ] [Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability): est. 4 hours
 
-#### week 4: Build random forest regression model
+#### week 4: Build and visualize random forest regression model
 learning resource is from [IPython Cookbook](https://github.com/ipython-books/cookbook-2nd)
 - [ ] [random forest](https://github.com/ipython-books/cookbook-2nd/blob/master/chapter08_ml/06_random_forest.md)
 
