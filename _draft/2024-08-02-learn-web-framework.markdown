@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Guarding error in typescript"
+title:  "When to use ChatGPT"
 date:   2024-08-02 11:40:34 -0500
 categories: MERN fullstack
 ---
