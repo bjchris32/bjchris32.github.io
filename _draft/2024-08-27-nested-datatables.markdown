@@ -22,6 +22,9 @@ Some questions raised when implementing nested data tables.
 * When in the js response, fetch the DataTable without option
   * This is not redefining the DataTable -> confirm it with document
 
+## Other topics to learn
+* server side processing: https://datatables.net/manual/server-side
+
 
 ## reference resources:
 * Initial search:
