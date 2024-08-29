@@ -24,3 +24,6 @@ Congrats!
 * What is the difference between `RAILS_ENV=production rake assets:clean` and `RAILS_ENV=production rake assets:clobber`?
 * clean -> only clean the old precompiled assets
 * clobber -> clean all of the precompiled assets
+
+## Reference
+* live compile: https://guides.rubyonrails.org/asset_pipeline.html#live-compilation
