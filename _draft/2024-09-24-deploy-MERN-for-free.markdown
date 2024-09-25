@@ -18,14 +18,26 @@ In local host, it works. However, I found an issue that the token in the cookie 
 ## Solution:
 Set cookie property `SameSite` to `none`.
 This is because I hosted my client and server service on different hosts.
-TODO: explain the property `sameSite` and `secure`.
+further study: explain the property `sameSite` and `secure`.
+refer to: https://andrewlock.net/understanding-samesite-cookies/
 
+## Yet another problem
+I tested on my iphone with safari. The user will automatically log out after refreshing the browser, which means the token is not persistent.
 
+## Ultamate Solution:
+Use the same root domain in both hosts on netlify and render.
+Okay, I know it is not completely free.
+When we set the subdomain on netlify and render, they will share the same root domain.
+At last, the `sameSite` could be set to `strict`.
+The token will be persistent and the user could maintain the login status.
+What made me impressed is both netlify and render handle the https certificate for me.
 
-
-
+TODO: further study
+Why I need to create NS record for netlify server, but only CName record for render server?
+What is the difference between NS record and CName?
 
 ## Reference
-* https://www.reddit.com/r/typescript/comments/98siz7/typescript_file_naming_conventions/
-* https://stackoverflow.com/questions/43973199/file-naming-conventions-in-reactjs
-* https://github.com/airbnb/javascript/tree/master/react
+* https://docs.netlify.com/domains-https/netlify-dns/#add-a-domain
+* https://docs.netlify.com/domains-https/custom-domains/configure-external-dns/#configure-a-subdomain
+* https://docs.render.com/custom-domains#2-configure-dns-with-your-provider
+* https://docs.render.com/configure-other-dns#configuring-www-and-other-subdomains
