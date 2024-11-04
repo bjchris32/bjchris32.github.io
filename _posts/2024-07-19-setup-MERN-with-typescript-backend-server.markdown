@@ -2,7 +2,7 @@
 layout: post
 title:  "MERN project setup: setup Nodejs server and Typescript"
 date:   2024-07-19 11:40:34 -0500
-categories: MERN fullstack
+tags: MERN fullstack backend NodeJS Typescript MongoDB Docker
 ---
 This is a tutorial about MERN stack setup. Through this article, we could understand the directory structure of MERN project, how to setup backend environments. In next article, I will detail more about how to set up frontend and how to dockerize each services including database.
 
