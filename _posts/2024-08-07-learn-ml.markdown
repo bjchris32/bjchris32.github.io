@@ -2,14 +2,14 @@
 layout: post
 title:  "The curriculum to learn machine learning"
 date:   2024-08-02 11:40:34 -0500
-categories: MERN fullstack
+tags: MachineLearning
 ---
 
 I would like to learn more about machine learning and build something interesting in my free time.
 Problem is I am so done with the online courses, because those classes requires you to take the bundle of courses and to learn something I might have known before.
 As a result, I looked up the discussions from reddit and found a curriculum [here](https://github.com/llSourcell/LearnML)
 The goal of the curriculum is to learn how to build and deploy a ML application in the end.
-Since most of them are reading materials, I could pick what I want and tailer those resource into my own learning path.
+Since most of them are reading materials, I could pick up what I want and tailer those resource into my own learning path.
 
 ## My goal:
 - I would like to learn more about machine learning, deep learning, and then GenAI.
@@ -36,15 +36,14 @@ Some topics that interst me are:
 learning resource is from [IPython Cookbook](https://github.com/ipython-books/cookbook-2nd)
 - [ ] [random forest](https://github.com/ipython-books/cookbook-2nd/blob/master/chapter08_ml/06_random_forest.md)
 
-### For month 2: Deep Learning
-... TBD ...
+### For month 2: Deep Learning (est. TBD)
 The overlapped materials people talks about are:
 - fastAI's course [Practical Deep Learning](https://course.fast.ai/Lessons/lesson1.html)
 - a text book [Dive into Deep Learning](https://d2l.ai/).
 
 
-### For month 3: MLOps
-... TBD
+### For month 3: MLOps (est. TBD)
+Follow the same material listed in github.
 
 ## reference resources:
-
+* https://github.com/llSourcell/LearnML
