@@ -12,7 +12,7 @@ This is a tutorial about MERN stack setup. Through this article, we could unders
 * Spin up MongoDB docker container and connect the container
 
 
-### Directories structure
+## Directories structure
 Firstly, we could just make two directories `client` and `server` in the project root directory, which is usually the directory where the `README.md` exists.
 ```
 mern-project/
@@ -21,8 +21,7 @@ mern-project/
 └── README.md
 ```
 
-### Install Backend Packages
-
+## Install Backend Packages
 In `server` directory, use command `npm init -y` to create `package.json`.
 After generating `package.json`, add necessary packages to make the MERN project spin up with database.
 
@@ -60,8 +59,8 @@ In this way, we could specify the folder to watch and proper file extension to t
 npm run dev
 {% endhighlight %}
 
-### MongoDB connection
-* Use Docker to spin up a MongoDB.
+## MongoDB connection
+* Use Docker to spin up a MongoDB container.
 {% highlight shell %}
 docker run --name mongodb -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password mongo
 {% endhighlight %}
