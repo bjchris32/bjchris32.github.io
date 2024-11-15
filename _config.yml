@@ -24,12 +24,12 @@ logo-dark: "/assets/img/branding/MVM-logo-full-dark.svg"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
-author: Armando Maynez # add your name
+author: Bao-Jhih Shao # add your name
 author-pic: Myself_Neon_grey.jpg
-about-author: Engineer, industry executive, research enthusiast. Avid learner with diverse interests in coding, machine learning, artificial intelligence and reinforcement learning. 17+ years of experience working in multinational corporations.
+about-author: A software engineer writing something to keep the memory.
 
 # Contact links
-email: armando.maynez@gmail.com # Add your Email address
+email: #armando.maynez@gmail.com # Add your Email address
 phone: # Add your Phone number
 website: https://chrisbj4.com # Add your website
 linkedin: bao-jhih # Add your Linkedin handle
