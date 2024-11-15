@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "The curriculum to learn machine learning"
+date:   2024-08-02 11:40:34 -0500
+tags: MachineLearning
+---
+
+I would like to learn more about machine learning and build something interesting in my free time.
+Problem is I am so done with the online courses, because those classes requires you to take the bundle of courses and to learn something I might have known before.
+As a result, I looked up the discussions from reddit and found a curriculum [here](https://github.com/llSourcell/LearnML)
+The goal of the curriculum is to learn how to build and deploy a ML application in the end.
+Since most of them are reading materials, I could pick up what I want and tailer those resource into my own learning path.
+
+## My goal:
+- I would like to learn more about machine learning, deep learning, and then GenAI.
+- Other than building projects in the journey, I would like to deploy them on the web.
+- Also, I am interested in visualize the data and explain what the model tells us.
+
+## My background:
+- I've learned general AI and machine learning concepts in grad school, but I did not have more in-depth knowledges in deep learning.
+- When I was taking machine learning in signal processing, I've learned PCA, ICA to reduce dimension. So, I'll skip them.
+
+## Adjusted resource:
+
+### For month 1: Machine Learning
+Since I've gained knowledges in python and mathematics, though I am not good at math, I will start from week 3.
+#### week 3: Data visualization
+Learning resource is from [kaggle learn](https://www.kaggle.com/learn)
+Some topics that interst me are:
+- [ ] [Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning/course): est. 4 hours
+- [ ] [Data Visualization](https://www.kaggle.com/learn/data-visualization): est. 4 hours
+- [ ] [Feature Engineering](https://www.kaggle.com/learn/feature-engineering): est. 5 hours
+- [ ] [Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability): est. 4 hours
+
+#### week 4: Build and visualize random forest regression model
+learning resource is from [IPython Cookbook](https://github.com/ipython-books/cookbook-2nd)
+- [ ] [random forest](https://github.com/ipython-books/cookbook-2nd/blob/master/chapter08_ml/06_random_forest.md)
+
+### For month 2: Deep Learning (est. TBD)
+The overlapped materials people talks about are:
+- fastAI's course [Practical Deep Learning](https://course.fast.ai/Lessons/lesson1.html)
+- a text book [Dive into Deep Learning](https://d2l.ai/).
+
+
+### For month 3: MLOps (est. TBD)
+Follow the same material listed in github.
+
+## reference resources:
+* https://github.com/llSourcell/LearnML

@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Why do I write?"
+date:   2024-06-25 11:40:34 -0500
+tags: writing
+---
+
+I write to remember.
+### What to expect in the post?
+- Technical problems I encountered and solved
+
+- Reading digest
+
+- Observations and reflections in daily life
+
+- Traveling in Taiwan, the US, or around the globe
+
+Without further ado, I'm going to get started.
