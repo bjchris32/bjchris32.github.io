@@ -1,6 +1,6 @@
 # Site settings
-title: The Minimum Viable Model
-description: 'Artificial Intelligence trends and concepts made easy.' # this means to ignore newlines until "baseurl:"
+title: BJ's writing place
+description: 'Writing about tech, reading, observations and reflections' # this means to ignore newlines until "baseurl:"
 permalink: ':title:output_ext'
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://the-mvm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -31,12 +31,12 @@ about-author: Engineer, industry executive, research enthusiast. Avid learner wi
 # Contact links
 email: armando.maynez@gmail.com # Add your Email address
 phone: # Add your Phone number
-website: https://amaynez.github.io # Add your website
-linkedin: amaynez # Add your Linkedin handle
-github: amaynez # Add your Github handle
-twitter: '@MvmThe' # Add your Twitter handle
-bandcamp: armandomaynez # Add your Bandcamp username
-stackoverflow: stackoverflow # Add your stackoverflow account
+website: https://chrisbj4.com # Add your website
+linkedin: bao-jhih # Add your Linkedin handle
+github: bjchris32 # Add your Github handle
+twitter: #'@MvmThe' # Add your Twitter handle
+bandcamp: #armandomaynez # Add your Bandcamp username
+stackoverflow: #stackoverflow # Add your stackoverflow account
 
 # Newsletter
 mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
