@@ -581,7 +581,7 @@ svg {
           align-items: center;
 }
 .main-header .logo {
-  width: 80%;
+  width: 40%;
   position: relative;
   text-align: center;
   color:var(--main);
