@@ -2,7 +2,10 @@
 layout: post
 title:  "Common Caching Strategies and How to Choose"
 date:   2024-11-04 11:40:34 -0500
-tags: cache
+tags: [cache]
+img: posts/tech-writing.webp
+read_time: true
+show_date: true
 ---
 
 I recently read an [article](https://medium.com/ssense-tech/cache-me-if-you-can-a-look-at-common-caching-strategies-and-how-cqrs-can-replace-the-need-in-the-65ec2b76e9e) that introduces various caching strategies. This was also my first time using NotebookLM. This tool significantly enhanced my understanding of the topic. You can ask questions in this notebook: [NotebookLM](https://notebooklm.google.com/notebook/91bfc8ff-5d25-4793-9a9e-95fe572bae33)

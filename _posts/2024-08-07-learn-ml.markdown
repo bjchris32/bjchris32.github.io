@@ -1,8 +1,11 @@
 ---
 layout: post
 title:  "The curriculum to learn machine learning"
-date:   2024-08-02 11:40:34 -0500
-tags: MachineLearning
+date:   2024-08-07
+tags: [machine learning, curriculum]
+img: posts/machine-learning.webp
+read_time: true
+show_date: true
 ---
 
 I would like to learn more about machine learning and build something interesting in my free time.

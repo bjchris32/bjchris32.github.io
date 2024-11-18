@@ -2,7 +2,10 @@
 layout: post
 title:  "How ChatGPT changed the way I work as a Software Engineer?"
 date:   2024-06-30 11:40:34 -0500
-tags: chatGPT working
+tags: [chatGPT, working]
+img: posts/chatgpt.webp
+read_time: true
+show_date: true
 ---
 
 I used to rely heavily on Google to search for answers to technical problems. However, since the advent of ChatGPT, it has significantly boosted my efficiency in solving problems and learning new technical skills: ChatGPT. In this post, I will explain how I've integrated ChatGPT into my workflow and the steps I follow to approach solutions using this AI assistant.
