@@ -2,7 +2,7 @@
 layout: post
 title:  "How ChatGPT changed the way I work as a Software Engineer?"
 date:   2024-06-30 11:40:34 -0500
-tags: [chatGPT, working]
+tags: [ChatGPT, Working]
 img: posts/chatgpt.webp
 read_time: true
 show_date: true

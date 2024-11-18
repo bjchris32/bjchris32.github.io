@@ -2,7 +2,7 @@
 layout: post
 title:  "The curriculum to learn machine learning"
 date:   2024-08-07
-tags: [machine learning, curriculum]
+tags: [Curriculum, Machine Learning]
 img: posts/machine-learning.webp
 read_time: true
 show_date: true

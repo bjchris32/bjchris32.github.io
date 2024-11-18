@@ -2,7 +2,7 @@
 layout: post
 title:  "Common Caching Strategies and How to Choose"
 date:   2024-11-04 11:40:34 -0500
-tags: [cache]
+tags: [Cache]
 img: posts/tech-writing.webp
 read_time: true
 show_date: true

@@ -2,7 +2,7 @@
 layout: post
 title:  "MERN project setup: setup Nodejs server and Typescript"
 date:   2024-07-19 11:40:34 -0500
-tags: [MERN, fullstack, backend, NodeJS, Typescript, MongoDB, Docker]
+tags: [MERN, Fullstack, Backend, NodeJS, Typescript, MongoDB, Docker]
 img: posts/tech-writing.webp
 read_time: true
 show_date: true
