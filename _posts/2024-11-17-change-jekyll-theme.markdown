@@ -2,7 +2,7 @@
 layout: post
 title:  "Change Jekyll Theme without forking the theme repository"
 date: 2024-11-17 11:40:34 -0500
-tags: [writing, blog]
+tags: [writing, blog, jekyll]
 img: posts/tech-writing.webp
 read_time: true
 show_date: true
