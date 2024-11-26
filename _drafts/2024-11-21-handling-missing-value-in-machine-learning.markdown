@@ -20,3 +20,6 @@ There would be missing values in input data.
 * impute with mean value or other existing common value
     * not sure which value to impute
 * additional column to indicate imputation
+
+## Tips
+* remember to add the columns and index back after imputation
