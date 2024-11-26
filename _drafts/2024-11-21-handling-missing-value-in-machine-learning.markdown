@@ -22,4 +22,4 @@ There would be missing values in input data.
 * additional column to indicate imputation
 
 ## Tips
-* remember to add the columns and index back after imputation
+* remember to [add the columns and index](https://www.kaggle.com/code/anaslargab/ghosh-rakhi-s-fixed-notebook/comments#1771584) back after imputation
