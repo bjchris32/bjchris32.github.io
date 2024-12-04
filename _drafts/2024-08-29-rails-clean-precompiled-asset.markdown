@@ -1,8 +1,11 @@
 ---
 layout: post
 title:  "Rails clean precompiled asset"
-date:   2024-08-27 11:40:34 -0500
-categories: rails
+date:   2024-08-27
+tags: [rails, issue solved]
+img: posts/ruby-on-rails.webp
+read_time: true
+show_date: true
 ---
 
 ## Context:
