@@ -32,7 +32,7 @@ Learning resource is from [kaggle learn](https://www.kaggle.com/learn)
 Some topics that interst me are:
 - [Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning/course): est. 4 hours
 - [Data Visualization](https://www.kaggle.com/learn/data-visualization): est. 1 hours
-    - I just want to review different method to explain the data. So, I only need to read the tutorial in (summarized tutorial)[https://www.kaggle.com/code/alexisbcook/choosing-plot-types-and-custom-styles]
+    - I just want to review different method to explain the data. So, I only need to read the tutorial in [summarized tutorial](https://www.kaggle.com/code/alexisbcook/choosing-plot-types-and-custom-styles)
 - [Feature Engineering](https://www.kaggle.com/learn/feature-engineering): est. 5 hours
 - [Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability): est. 4 hours
 
