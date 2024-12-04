@@ -55,5 +55,5 @@ git merge newtheme
 
 
 ## Reference
-* https://stackoverflow.com/questions/31327045/switch-theme-in-an-existing-jekyll-installation
-* https://github.com/the-mvm/the-mvm.github.io
+* [Switch theme in an existing Jekyll installation](https://stackoverflow.com/questions/31327045/switch-theme-in-an-existing-jekyll-installation)
+* [The MVM GitHub repository](https://github.com/the-mvm/the-mvm.github.io)
