@@ -46,8 +46,9 @@ The overlapped materials people talks about are:
 - a text book [Dive into Deep Learning](https://d2l.ai/).
 
 
-### For month 3: MLOps (est. TBD)
+### For month 3: GenAI/MLOps (est. TBD)
 Follow the same material listed in github.
+* Kaggle [5-Day Gen AI Intensive Course](https://www.kaggle.com/learn-guide/5-day-genai)
 
 ## reference resources:
-* https://github.com/llSourcell/LearnML
+* [LearnML](https://github.com/llSourcell/LearnML)
