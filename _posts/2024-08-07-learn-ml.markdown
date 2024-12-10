@@ -23,6 +23,12 @@ Since most of them are reading materials, I could pick up what I want and tailer
 - I've learned general AI and machine learning concepts in grad school, but I did not have more in-depth knowledges in deep learning.
 - When I was taking machine learning in signal processing, I've learned PCA, ICA to reduce dimension. So, I'll skip them.
 
+# Routine:
+The schedule each week would be as followed.
+Day 1 - 4: Reading material, lesson and exercise implementation
+Day 5 - 6: Assignment implementation
+Day 7: Document, share and self-reflection on my plan/goal.
+
 ## Adjusted resource:
 
 ### For month 1: Machine Learning
@@ -40,14 +46,30 @@ Some topics that interst me are:
 learning resource is from [IPython Cookbook](https://github.com/ipython-books/cookbook-2nd)
 - [random forest](https://github.com/ipython-books/cookbook-2nd/blob/master/chapter08_ml/06_random_forest.md)
 
-### For month 2: Deep Learning (est. TBD)
+### For month 2: Deep Learning
 The overlapped materials people talks about are:
 - fastAI's course [Practical Deep Learning](https://course.fast.ai/Lessons/lesson1.html)
 - a text book [Dive into Deep Learning](https://d2l.ai/).
+FastAI's course looks more interesting to me, so I will explore FastAI's course and plan to learn all the chapters.
 
+#### Week 1: Neural Networks
+- Practical Deep Learning(Part 1): est. 14 hours
+- Dive into Deep Learning(Chapter 3. - Chapter 9.): est. 10 hours
+- Assignment: on github.
+
+#### Week 2: Transformers(HuggingFace)
+- Follow the NLP course in hugginface: est 10 hours lesson and 20+ hours implementation
+- Assignment: on github.
+
+#### Week 3: GenAI - Diffusion(FastAI)
+- Follow all courses in Part 2: 15 hours lesson and 20+ hours implementation
+- Assignment: on github.
+
+#### Week 4: Deep Reinforcement Learning(Simonini Thomas)
+- Follow syllabus [Deep Reinforcement Learning Course](https://simoninithomas.github.io/deep-rl-course/)(8 Units): est. 16 hours lesson and 20+ hours implementation
+- Assignment: on github.
 
 ### For month 3: GenAI/MLOps (est. TBD)
-Follow the same material listed in github.
 * Kaggle [5-Day Gen AI Intensive Course](https://www.kaggle.com/learn-guide/5-day-genai)
 
 ## reference resources:
