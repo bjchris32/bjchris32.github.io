@@ -28,10 +28,10 @@ Problem is:
 - Pick the features with high MI. Beyond that, if there is any low MI feature have interaction with high MI features, we could take this low MI feature into consideration - i.e. there are some distinctions in trend between target and high MI feature, given different value of low MI feature.
 
 ### Problem 2: How to create (useful) features?
-> Understand the features. Refer to your dataset's data documentation, if available.
-> Research the problem domain to acquire domain knowledge. If your problem is predicting house prices, do some research on real-estate for instance. Wikipedia can be a good starting point, but books and journal articles will often have the best information.
-> Study previous work. Solution write-ups from past Kaggle competitions are a great resource.
-> Use data visualization. Visualization can reveal pathologies in the distribution of a feature or complicated relationships that could be simplified. Be sure to visualize your dataset as you work through the feature engineering process.
+> - Understand the features. Refer to your dataset's data documentation, if available.
+> - Research the problem domain to acquire domain knowledge. If your problem is predicting house prices, do some research on real-estate for instance. Wikipedia can be a good starting point, but books and journal articles will often have the best information.
+> - Study previous work. Solution write-ups from past Kaggle competitions are a great resource.
+> - Use data visualization. Visualization can reveal pathologies in the distribution of a feature or complicated relationships that could be simplified. Be sure to visualize your dataset as you work through the feature engineering process.
 
 #### What did I learn?:
 - several ways to create features:
@@ -44,12 +44,36 @@ Problem is:
     - median, etc
 
 - Guidelines about when to use which method:
-> Linear models learn sums and differences naturally, but can't learn anything more complex.
-> Ratios seem to be difficult for most models to learn. Ratio combinations often lead to some easy performance gains.
-> Linear models and neural nets generally do better with normalized features. Neural nets especially need features scaled to values not too far from 0. Tree-based models (like random forests and XGBoost) can sometimes benefit from normalization, but usually much less so.
-> Tree models can learn to approximate almost any combination of features, but when a combination is especially important they can still benefit from having it explicitly created, especially when data is limited.
-> Counts are especially helpful for tree models, since these models don't have a natural way of aggregating information across many features at once.
+> - Linear models learn sums and differences naturally, but can't learn anything more complex.
+> - Ratios seem to be difficult for most models to learn. Ratio combinations often lead to some easy performance gains.
+> - Linear models and neural nets generally do better with normalized features. Neural nets especially need features scaled to values not too far from 0. Tree-based models (like random forests and XGBoost) can sometimes benefit from normalization, but usually much less so.
+> - Tree models can learn to approximate almost any combination of features, but when a combination is especially important they can still benefit from having it explicitly created, especially when data is limited.
+> - Counts are especially helpful for tree models, since these models don't have a natural way of aggregating information across many features at once.
 
 
 #### Tips:
 - Be mindful of data leakage when creating aggregated feature. The aggregated feature should only be calculated from training dataset. In validation dataset, it should reuse the aggregated feature from the training dataset to avoid overfitting.
+
+Simple example to explain data leakage again(cited from ChatGpt).
+> Target Variable:
+> We are trying to predict the Sales of a product based on features like the store (Store) and possibly derived features like the average sales of the store (Store_Avg_Sales).
+>
+> Features:
+> Store: The store type where the product is sold.
+> Store_Avg_Sales: The average sales of the store, which we compute as an aggregated feature.
+>
+> | ID | Store | Sales | Store_Avg_Sales |
+> |----|-------|-------|-----------------|
+> | 1  | A     | 200   | 210             |
+> | 2  | A     | 220   | 210             |
+> | 3  | B     | 150   | 145             |
+> | 4  | B     | 140   | 145             |
+> | 5  | A     | 210   | 210             |
+> | 6  | B     | 145   | 145             |
+>
+> If Store_Avg_Sales is computed using the entire dataset (training + validation):
+> The model sees an unrealistically informative feature for the validation set.
+> For example:
+> Row 5 (Store = A, Sales = 210) gets Store_Avg_Sales = 210, which already reflects its own Sales.
+> The model can trivially predict Sales = 210 since the feature already "cheats."
+
