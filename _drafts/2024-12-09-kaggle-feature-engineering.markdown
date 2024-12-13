@@ -77,3 +77,39 @@ Simple example to explain data leakage again(cited from ChatGpt).
 > Row 5 (Store = A, Sales = 210) gets Store_Avg_Sales = 210, which already reflects its own Sales.
 > The model can trivially predict Sales = 210 since the feature already "cheats."
 
+
+### Problem 3: What are the features in unsupervised machine learning?
+> In the context of feature engineering for prediction, you could think of an unsupervised algorithm as a "feature discovery" technique.
+> ...
+> Adding a feature of cluster labels can help machine learning models untangle complicated relationships of space or proximity.
+
+
+### What did I learn?
+* Why clustering?
+When you apply clustering to your data, each data point is assigned a label that indicates which cluster it belongs to. That is, the lable became categorical feature. These labels can then be treated as categorical features in your dataset.
+
+> The motivating idea for adding cluster labels is that the clusters will break up complicated relationships across features into simpler chunks. Our model can then just learn the simpler chunks one-by-one instead having to learn the complicated whole all at once. It's a "divide and conquer" strategy
+
+We can cluster the dataset into chunks and train a model for each chuncks respectively. This way, we hope that the model of a chunk could be linear.
+
+* What is K-means clustering?
+
+> It's a simple two-step process. The algorithm starts by randomly initializing some predefined number (n_clusters) of centroids. It then iterates over these two operations:
+>
+> 1. assign points to the nearest cluster centroid
+> 2. move each centroid to minimize the distance to its points
+>
+> It iterates over these two steps until the centroids aren't moving anymore, or until some maximum number of iterations has passed (max_iter).
+>
+> It often happens that the initial random position of the centroids ends in a poor clustering. For this reason the algorithm repeats a number of times (n_init) and returns the clustering that has the least total distance between each point and its centroid, the optimal clustering.
+> Ordinarily though the only parameter you'll need to choose yourself is n_clusters (k, that is).
+
+* How to apply K-means to create feature?
+  * After K-means, use clustering label as a feature
+  * An alternavive way with more granularity: After K-means, we can measure the distance between the data point to each centroid. These distances can be used as new features in your dataset, allowing you to provide more granular information about how the point relates to the various clusters rather than just indicating to which cluster it belongs.
+
+#### Tips
+- Since k-means clustering is sensitive to scale, it can be a good idea rescale or normalize data with extreme values.
+> if the features are already directly comparable (like a test result at different times), then you would not want to rescale. On the other hand, features that aren't on comparable scales (like height and weight) will usually benefit from rescaling. Sometimes, the choice won't be clear though. In that case, you should try to use common sense, remembering that features with larger values will be weighted more heavily.
+>
+> Comparing different rescaling schemes through cross-validation can also be helpful.
