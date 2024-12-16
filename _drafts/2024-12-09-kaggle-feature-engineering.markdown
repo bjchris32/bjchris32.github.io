@@ -83,7 +83,7 @@ Simple example to explain data leakage again(cited from ChatGpt).
 > ...
 > Adding a feature of cluster labels can help machine learning models untangle complicated relationships of space or proximity.
 
-### What did I learn?
+#### What did I learn?
 * Why clustering?
 When you apply clustering to your data, each data point is assigned a label that indicates which cluster it belongs to. That is, the lable became categorical feature. These labels can then be treated as categorical features in your dataset.
 
@@ -116,7 +116,7 @@ We can cluster the dataset into chunks and train a model for each chuncks respec
 ### Problem 4: What is PCA?
 > Just like clustering is a partitioning of the dataset based on proximity, you could think of PCA as a partitioning of the variation in the data. PCA is a great tool to help you discover important relationships in the data and can also be used to create more informative features.
 
-### What did I learn?
+#### What did I learn?
 > It's important to remember, however, that the amount of variance in a component doesn't necessarily correspond to how good it is as a predictor: it depends on what you're trying to predict.
 
 * common use cases of PCA:
@@ -135,3 +135,40 @@ We can cluster the dataset into chunks and train a model for each chuncks respec
 > - PCA is sensitive to scale. It's good practice to standardize your data before applying PCA, unless you know you have good reason not to.
 >
 > - Consider removing or constraining outliers, since they can have an undue influence on the results.
+
+### Problem 4: What is target encoding?
+> A target encoding is any kind of encoding that replaces a feature's categories with some number derived from the target.
+
+Question: would there be data leakage when deriving the number from the target?
+
+#### What did I learn?
+
+* Why target encoding may have overfitting problem?
+
+1. Target encoding is done in training dataset, but some category values in the testset might be unknown, which means that the target encoding can not represent all categorical values.
+
+2. Some category values are rare, so the target encoded value can not be representatives of the future data in the same category.
+
+* How to deal with overfitting?
+> ... add smoothing. The idea is to blend the in-category average with the overall average. Rare categories get less weight on their category average, while missing categories just get the overall average.
+This way, we can impute the smoothing values for unknown categorical values, or fill in the target encoded value while taking overall dataset into consideration.
+
+The formula is as followed:
+> encoding = weight * in_category + (1 - weight) * overall
+> where weight is a value between 0 and 1 calculated from the category frequency.
+>
+> An easy way to determine the value for weight is to compute an m-estimate:
+>
+> weight = n / (n + m)
+> where n is the total number of times that category occurs in the data. The parameter m determines the "smoothing factor". Larger values of m put more weight on the overall estimate.
+
+* Why do we need target encoding?
+1. reduce the size of dataset for high-cardinality features: one-hot encoding will engender too many additional features or sparse metrics. Use target encoding, so that we could just use one feature to represent different categorical values.
+2. discover domain-motivated features: some categorical feature should be important, but they does not demonstrate a significant relationship with the target. When converting the categorical feature into numerical values by target encoding, we enhance the relationship between the categorical feature and the targe. Then, we could compare the performance between the model with categorical feature and the one with target encoded feature. This case, we are able to decide if the categorical feature reveal any true informativesness.
+
+* When to avoid target encoding?
+We need to sacrifice some dataset for encoding before training. Then, depending on which features you chose, you may have ended up with a score significantly worse than the baseline(whole dataset).
+It may not worth it to lose an independent dataset for target encoding. We could just train the model without target encoding.
+
+#### Tips:
+We can also compare the distribution of the categorical feature with the distribution of target encoded feature. If they looks similar, it means that target encoding is able to capture enough information.
