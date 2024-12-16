@@ -78,11 +78,10 @@ Simple example to explain data leakage again(cited from ChatGpt).
 > The model can trivially predict Sales = 210 since the feature already "cheats."
 
 
-### Problem 3: What are the features in unsupervised machine learning?
+### Problem 3: How to create features in unsupervised machine learning?
 > In the context of feature engineering for prediction, you could think of an unsupervised algorithm as a "feature discovery" technique.
 > ...
 > Adding a feature of cluster labels can help machine learning models untangle complicated relationships of space or proximity.
-
 
 ### What did I learn?
 * Why clustering?
@@ -113,3 +112,26 @@ We can cluster the dataset into chunks and train a model for each chuncks respec
 > if the features are already directly comparable (like a test result at different times), then you would not want to rescale. On the other hand, features that aren't on comparable scales (like height and weight) will usually benefit from rescaling. Sometimes, the choice won't be clear though. In that case, you should try to use common sense, remembering that features with larger values will be weighted more heavily.
 >
 > Comparing different rescaling schemes through cross-validation can also be helpful.
+
+### Problem 4: What is PCA?
+> Just like clustering is a partitioning of the dataset based on proximity, you could think of PCA as a partitioning of the variation in the data. PCA is a great tool to help you discover important relationships in the data and can also be used to create more informative features.
+
+### What did I learn?
+> It's important to remember, however, that the amount of variance in a component doesn't necessarily correspond to how good it is as a predictor: it depends on what you're trying to predict.
+
+* common use cases of PCA:
+> Dimensionality reduction: When your features are highly redundant (multicollinear, specifically), PCA will partition out the redundancy into one or more near-zero variance components, which you can then drop since they will contain little or no information.
+
+> Anomaly detection: Unusual variation, not apparent from the original features, will often show up in the low-variance components. These components could be highly informative in an anomaly or outlier detection task.
+
+> Noise reduction: A collection of sensor readings will often share some common background noise. PCA can sometimes collect the (informative) signal into a smaller number of features while leaving the noise alone, thus boosting the signal-to-noise ratio.
+
+> Decorrelation: Some ML algorithms struggle with highly-correlated features. PCA transforms correlated features into uncorrelated components, which could be easier for your algorithm to work with.
+
+* best practice of PCA:
+
+> - PCA only works with numeric features, like continuous quantities or counts.
+>
+> - PCA is sensitive to scale. It's good practice to standardize your data before applying PCA, unless you know you have good reason not to.
+>
+> - Consider removing or constraining outliers, since they can have an undue influence on the results.
