@@ -74,6 +74,6 @@ Some use cases, for example, are:
   > The jumbling suggests that sometimes increasing that feature leads to higher predictions, and other times it leads to a lower prediction. Said another way, both high and low values of the feature can have both positive and negative effects on the prediction. The most likely explanation for this "jumbling" of effects is that the variable (in this case num_lab_procedures) has an interaction effect with other variables. 
 
 * SHAP contribution dependence plot
-  - used when there is jumbled dots spread in summary plots. Set different "interaction_index" to see if there is any interaction between the feature with the other features.
+  - used when there is jumbled dots spread in summary plots. Set different "interaction_index" to see if there is any interaction between the feature with the other relevant features.
 
 
