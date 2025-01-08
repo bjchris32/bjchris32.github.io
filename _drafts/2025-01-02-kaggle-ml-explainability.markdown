@@ -58,3 +58,22 @@ Use 2D Partial Dependence Plots
   - https://www.kaggle.com/discussions/getting-started/65782
   - https://www.youtube.com/watch?v=uQQa3wQgG_s&ab_channel=ritvikmath
 
+### Problem 3: What is SHAP values?
+Used to break down a prediction to show the impact of each feature
+Some use cases, for example, are:
+- A model says a bank shouldn't loan someone money, and the bank is legally required to explain the basis for each loan rejection
+- A healthcare provider wants to identify what factors are driving each patient's risk of some disease so they can directly address those risk factors with targeted health interventions
+
+#### What did I learn?
+* Use the library to get the features that make positive or negative effect on the numeric prediction
+
+* Summary Plots
+  - width
+  > The width of the effects range is not a reasonable approximation to permutation importance. For that matter, the width of the range doesn't map well to any intuitive sense of "importance" because it can be determined by just a few outliers. However if all dots on the graph are widely spread from each other, that is a reasonable indication that permutation importance is high. Because the range of effects is so sensitive to outliers, permutation importance is a better measure of what's generally important to the model.
+  - jumbled/separated color
+  > The jumbling suggests that sometimes increasing that feature leads to higher predictions, and other times it leads to a lower prediction. Said another way, both high and low values of the feature can have both positive and negative effects on the prediction. The most likely explanation for this "jumbling" of effects is that the variable (in this case num_lab_procedures) has an interaction effect with other variables. 
+
+* SHAP contribution dependence plot
+  - used when there is jumbled dots spread in summary plots. Set different "interaction_index" to see if there is any interaction between the feature with the other features.
+
+
