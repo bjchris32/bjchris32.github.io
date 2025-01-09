@@ -32,9 +32,9 @@ Day 7: Document, share and self-reflection on my plan/goal.
 ## Adjusted resource:
 
 ### For month 1: Machine Learning
-Since I've gained knowledges in python and mathematics, though I am not good at math, I will start from week 3.
-#### week 3 - 4: Data visualization
-Learning resource is from [kaggle learn](https://www.kaggle.com/learn)
+Since I've gained knowledges in python and mathematics, I will start from week 3 from [LearnML](https://github.com/llSourcell/LearnML) and extend my learning from [kaggle learn](https://www.kaggle.com/learn)
+
+#### week 1 - 4: Data visualization
 Some topics that interst me are:
 - [Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning/course): est. 4 hours
 - [Data Visualization](https://www.kaggle.com/learn/data-visualization): est. 1 hours
@@ -46,7 +46,7 @@ Some topics that interst me are:
 The overlapped materials people talks about are:
 - fastAI's course [Practical Deep Learning](https://course.fast.ai/Lessons/lesson1.html)
 - a text book [Dive into Deep Learning](https://d2l.ai/).
-FastAI's course looks more interesting to me, so I will explore FastAI's course and plan to learn all the chapters.
+FastAI's course looks more interesting to me, so I will explore FastAI's course and plan to learn more from this material.
 
 #### Week 1: Neural Networks
 - Practical Deep Learning(Part 1): est. 14 hours
