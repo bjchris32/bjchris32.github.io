@@ -33,7 +33,7 @@ Day 7: Document, share and self-reflection on my plan/goal.
 
 ### For month 1: Machine Learning
 Since I've gained knowledges in python and mathematics, though I am not good at math, I will start from week 3.
-#### week 3: Data visualization
+#### week 3 - 4: Data visualization
 Learning resource is from [kaggle learn](https://www.kaggle.com/learn)
 Some topics that interst me are:
 - [Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning/course): est. 4 hours
@@ -41,10 +41,6 @@ Some topics that interst me are:
     - I just want to review different method to explain the data. So, I only need to read the tutorial in [summarized tutorial](https://www.kaggle.com/code/alexisbcook/choosing-plot-types-and-custom-styles)
 - [Feature Engineering](https://www.kaggle.com/learn/feature-engineering): est. 5 hours
 - [Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability): est. 4 hours
-
-#### week 4: Build and visualize random forest regression model
-learning resource is from [IPython Cookbook](https://github.com/ipython-books/cookbook-2nd)
-- [random forest](https://github.com/ipython-books/cookbook-2nd/blob/master/chapter08_ml/06_random_forest.md)
 
 ### For month 2: Deep Learning
 The overlapped materials people talks about are:
