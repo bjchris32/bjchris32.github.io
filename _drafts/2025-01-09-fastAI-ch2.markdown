@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "FastAI chapter 2: deploy classifier"
+date:   2024-01-09
+tags: [Machine Learning, random forest]
+img: posts/machine-learning.webp
+read_time: true
+show_date: true
+---
+
+* How to organize the image data before training?
+  - resize(scale/strech), add padding, etc.
+    Above methods usually caused error. Instead, what we normally do in practice is to randomly select part of the image, and crop to just that part. On each epoch (which is one complete pass through all of our images in the dataset) we randomly select a different part of each image.
+
+* How to clean data?
+> The intuitive approach to doing data cleaning is to do it before you train a model. But as you've seen in this case, a model can actually help you find data issues more quickly and easily. So, we normally prefer to train a quick and simple model first, and then use it to help us with data cleaning.
+
+
+* How to deploy the model to a web application?
+  We only need architecture and parameter of the model and we do not need GPU to train in production.
+  - ipywidgets: present necessary output in Jupyter notebooks.
+  - Voilà: convert the output of Jupyter notebooks into web application
+  - Binder: deploy the web application for free.
+
+* Pros and cons of deploying on a server instead of edge devices(mobile devices)
+  - Pros
+    - easy to deploy and upgrade model
+    - more memory and capacity for the model(vertical scaling)
+  - Cons
+    - network latency
+    - privacy
+    - edge devices can do horizontal scaling because computation happens in users' devices
+
+* How to avoid disaster?
+
+
+
+
