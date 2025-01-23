@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "FastAI chapter 2: deploy classifier"
-date:   2024-01-09
+date:   2025-01-09
 tags: [Machine Learning, random forest]
 img: posts/machine-learning.webp
 read_time: true
