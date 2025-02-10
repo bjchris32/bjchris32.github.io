@@ -12,9 +12,8 @@ show_date: true
   - resize(scale/strech), add padding, etc.
     Above methods usually caused error. Instead, what we normally do in practice is to randomly select part of the image, and crop to just that part. On each epoch (which is one complete pass through all of our images in the dataset) we randomly select a different part of each image.
 
-* How to clean data?
-> The intuitive approach to doing data cleaning is to do it before you train a model. But as you've seen in this case, a model can actually help you find data issues more quickly and easily. So, we normally prefer to train a quick and simple model first, and then use it to help us with data cleaning.
-
+* How to clean data? Why clean data by training model?
+> The intuitive approach to doing data cleaning is to do it before you train a model. But, a preliminary model can actually help you find data issues more quickly and easily. So, we could train a quick and simple model first, and then use it to identitfy the validation data or training data that is hard to classify.
 
 * How to deploy the model to a web application?
   We only need architecture and parameter of the model and we do not need GPU to train in production.
@@ -32,7 +31,13 @@ show_date: true
     - edge devices can do horizontal scaling because computation happens in users' devices
 
 * How to avoid disaster?
+- Out-of-domain data
+  * production data is never used in training process
+- Domain shift
+  * the type of data that our model sees changes over time
+    ... More detail in Building Machine Learning Powered Applications by Emmanuel Ameisen.
 
-
-
-
+* Write a blog after implementation.
+  - What's surprised you?
+  - What opportunities do you see for deep learning in your field?
+  - What obstacles do you see?
