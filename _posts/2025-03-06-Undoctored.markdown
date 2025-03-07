@@ -2,7 +2,7 @@
 layout: post
 title:  "Undoctored"
 date:   2025-03-06
-tags: [Writing, Reading Digest, startup]
+tags: [Writing, Reading Digest, health, live style]
 img: posts/writing.webp
 read_time: true
 show_date: true
