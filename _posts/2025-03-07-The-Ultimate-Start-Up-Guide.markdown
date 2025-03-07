@@ -3,12 +3,12 @@ layout: post
 title:  "The Ultimate Start-Up Guide"
 date:   2025-03-07
 tags: [Writing, Reading Digest, startup]
-img: posts/writing.webp
+img: posts/reading-digest.webp
 read_time: true
 show_date: true
 ---
 
-After reading this book, I found even if I don't start up a business, I could improve the way I think about my career path, the way I talk to others in a presentation.
+After reading this book, I found even if I don't start up a business, I could improve the way I think about my career path and the way I talk to others in a presentation.
 
 ## How to generate idea?
 * Start with why(customers’ need) instead of what(technology)

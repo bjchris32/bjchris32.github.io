@@ -3,7 +3,7 @@ layout: post
 title:  "Undoctored"
 date:   2025-03-06
 tags: [Writing, Reading Digest, health, live style]
-img: posts/writing.webp
+img: posts/reading-digest.webp
 read_time: true
 show_date: true
 ---
@@ -53,6 +53,8 @@ I found this book insightful, but I am not quite sure if the recipes in the book
 * Nutritional supplements can be therapeutic.
 * Essential undoctored home health tools:
 	* thermometer to assess thyroid hormone status, finger-stick glucose meter and test strips, nutritional analysis app for carbohydrates and fiber per serving, blood pressure device.
+
+
 ## Chap 9.: Eating While Wild, Naked, and Unwashed
 ### De-Grain the Kitchen
 > De-grain the entire place right from the start. Just as you do not want vermin inhabiting your cupboard, you also do not want any seeds of grasses sitting on the shelves.
