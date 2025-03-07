@@ -2,7 +2,7 @@
 layout: post
 title:  "The Ultimate Start-Up Guide"
 date:   2025-03-07
-tags: [Writing]
+tags: [Writing, Reading Digest, startup]
 img: posts/writing.webp
 read_time: true
 show_date: true
