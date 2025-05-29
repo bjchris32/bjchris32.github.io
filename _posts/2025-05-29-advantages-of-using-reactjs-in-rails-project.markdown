@@ -8,13 +8,17 @@ read_time: true
 show_date: true
 ---
 
-Recently, I am implementing a feature to show a list of file records which stored in different data repositories. I would like to show different data repositories as well as its related file records in the same page. The user interface is a tab widget to switch the data repositories and in the tab content, there would be a table widget to list all of the file records.
+## Foreword
 
-One thing to notice is that a file record could also be a folder, we will need to refresh the table content whenever the user click on the folder record in the table. To prevent from loading all of the the file records in one shot(recursion), we will need to partially update the table content and only show the file records in current path.
+Recently, I have been working on a feature to display a list of file records stored in various data repositories. The goal is to present different data repositories along with their corresponding file records on a single page. The user interface consists of a tab widget for switching between data repositories, and within each tab's content, there is a table widget listing all the file records.
 
-I want to use this example feature to demonstrate the advantages of using ReactJS instead of Ordinary Ajax/JQuery in terms of DOM Manipulation, Component Reusability, and Maintainability.
+It's important to note that a file record can also represent a folder. When a user clicks on a folder record in the table, the table content needs to be refreshed. To avoid loading all file records at once (which could lead to performance issues), we aim to update the table content partially and display only the file records in the current path.
 
-Let’s take a look a the code directly.
+I intend to use this feature as an example to showcase the benefits of using ReactJS over traditional Ajax/JQuery in terms of DOM manipulation, component reusability, and maintainability.
+
+Let's delve into the code to see these advantages in action.
+
+## Implementation
 
 ### Ajax/JQuery Implementation
 <div style="max-height: 600px; overflow: auto; border: 1px solid #ccc;">
@@ -50,3 +54,7 @@ Let’s take a look a the code directly.
     * no need to register the partial loading multiple times
 * Declarative DOM manipulation
   * do not need to query the DOM -> JS behavior is described around the UI(html tags)
+
+## Conclusion
+
+By leveraging ReactJS, we benefit from improved DOM manipulation, modularized component for enhanced reusability, and maintainability. ReactJS allows for better state management, built-in callback functions like useEffect, and declarative DOM manipulation, which simplifies the development process.
