@@ -13,13 +13,20 @@ In this post, I will share my experience and the problems I solved while introdu
 ## Problems solved on development environment
 
 - Error in `babel.config.js`
-  - error:
+  ```
+  ERROR in ./app/javascript/packs/application.js
+  Module build failed (from ./node_modules/babel-loader/lib/index.js):
+  Error: Cannot find package '@babel/plugin-proposal-private-methods' imported from /Users/bshao/projects/deput/babel-virtual-resolve-base.js
+
+  ```
+  - solution: some dependent [library name changed](https://github.com/rails/rails/issues/48372) after the `react-rails` gem was released. We need to manually change the libray name in `babel.config.js`. If the error persists and show as below:
+
   ```
   Uncaught Error: Module build failed (from ./node_modules/babel-loader/lib/index.js):
   Error: Cannot find package '@babel/plugin-proposal-private-methods' imported from /Users/bshao/projects/deput/babel-virtual-resolve-base.js
   ```
-  - solution: some dependent [library name changed](https://github.com/rails/rails/issues/48372) after the `react-rails` gem was released. We need to manually change the libray name in `babel.config.js`. Remember to stop the webpacker server and clean the webpacker cache after modification:
 
+  Try to stop the webpacker server and clean the webpacker cache after modification:
   ```
   rm -rf tmp/cache
   ```
