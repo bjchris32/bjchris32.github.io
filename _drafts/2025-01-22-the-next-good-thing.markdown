@@ -3,7 +3,7 @@ layout: post
 title:  "Reading Digest: The Next Good Thing"
 date:   2025-01-22
 tags: [reading digest]
-img: posts/machine-learning.webp
+img: posts/reading-digest.webp
 read_time: true
 show_date: true
 ---
