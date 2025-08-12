@@ -7,6 +7,9 @@ img: posts/reading-digest.webp
 read_time: true
 show_date: true
 ---
+
+This post records what I have read and my reflections.
+
 # Next Good thing
 ## Reading Digest
 ### Chapter 1- 3
@@ -15,7 +18,7 @@ He tried to find a new job but still failed to land on a job after 6 months.
 To sustain his family spending of 2 kids, he did uber in the night while keep applying for the job.
 One day, he received an email from his father sharing a exerpt from bible. A voice came up that he should do the next good thing. And that unfolds the whole story.
 
-* I kind of relates to Marcos because I was also struggling to land on a job last year.
+* I kind of relates to Marcos' situation.
 
 ### Chapter 4
 Marcos volunteered to care for Joe, an old stroke survivor in his region. It turned out that Joe is a wise man and guided Marcos through several life issues.
@@ -28,7 +31,7 @@ It turned out that Joe is a mentor and also a coach for public speaking.
 
 > I call this finding the song we came here to sing. Find that and you are on your way to a fulfilling and happy life where you will want to share it with others. (page 76.)
 
-* I reflected on my self about why I did not do well on public speaking. Did I find my song? Did I work on something that I am enthusiastic about, so that I am willing to share? Or, I am just too shy to do public speaking. It seems to be that I still did not find the song.
+* I reflected on my self about why I did not do well on public speaking. Did I find my song? Did I work on something that I am enthusiastic about, so that I am willing to share? Or, I am just too shy to do public speaking.
 
 ### Chapter 6
 Some minor accident happened when Marcos was taking Joe to lunch. A driver was barely hitting them when Marcos was guiding Joe in the parking lot.
@@ -76,7 +79,7 @@ Marcos went to a dinner with his friends. He tried to share some idea he got fro
 
 > Doubtful people have doubtful lives.
 
-* I think I am still doubtful about how to always stay positive when things go completely out of my control. I still can not stay positive when dealing with the visa status in US, the job market so far and so forth.
+* I think I am still doubting about how to always stay positive when things go completely out of my control. I still can not stay positive when dealing with the visa status in US, the job market so far and so forth.
 
 
 ### Chapter 12
