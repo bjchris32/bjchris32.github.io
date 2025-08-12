@@ -75,8 +75,11 @@ I was branstorming several animal classifier as followed.
 ### Several trouble shooting
 
 * `ddgs` is outdated
+	* https://forums.fast.ai/t/getting-an-error-when-trying-to-run-search-images-ddg-in-google-colab/121311
+
 
 * `notebook2script` is outdated and there is not such function
+	* sol: https://forums.fast.ai/t/correct-export-syntax-in-nbdev-2/108043
 
 * can not upload large files onto huggingface space
 ```
@@ -84,6 +87,7 @@ remote: Your push was rejected because it contains files larger than 10 MiB.
 remote: Please use https://git-lfs.github.com/ to store large files.
 remote: See also: https://hf.co/docs/hub/repositories-getting-started#terminal
 ```
+	* sol: https://docs.github.com/en/repositories/working-with-files/managing-large-files/configuring-git-large-file-storage
 
 
 ::TODO:: combine the previoust draft post on 2025-01-09
