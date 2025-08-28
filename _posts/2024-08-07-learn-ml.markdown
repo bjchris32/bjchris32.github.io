@@ -31,7 +31,7 @@ Day 7: Document, share and self-reflection on my plan/goal.
 
 ## Adjusted resource:
 
-### For month 1: Machine Learning
+### Milestone 1: Machine Learning
 Since I've gained knowledges in python and mathematics, I will start from week 3 from [LearnML](https://github.com/llSourcell/LearnML) and extend my learning from [kaggle learn](https://www.kaggle.com/learn)
 
 #### week 1 - 4: Data visualization
@@ -42,30 +42,108 @@ Some topics that interst me are:
 - [Feature Engineering](https://www.kaggle.com/learn/feature-engineering): est. 5 hours
 - [Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability): est. 4 hours
 
-### For month 2: Deep Learning
+#### Reflections:
+- The kaggle material are easy to follow and they did not put too much challenges for me. I will need to adjust the plans in month 2 to get more challengs and implement more projects.
+- I want to make the plan as milestones instead of month, because I felt more comfortable when there are some other commitments to focus on.
+
+### Milestone 2: Deep Learning
 The overlapped materials people talks about are:
 - fastAI's course [Practical Deep Learning](https://course.fast.ai/Lessons/lesson1.html)
 - a text book [Dive into Deep Learning](https://d2l.ai/).
-FastAI's course looks more interesting to me, so I will explore FastAI's course and plan to learn more from this material.
+FastAI's course looks more interesting to me, so I will explore FastAI's course and plan to learn more from this material and make the materials from the curriculum as supplement resources.
 
-#### Week 1: Neural Networks
+#### Milestone 2.1.1: Neural Networks
 - Practical Deep Learning(Part 1): est. 14 hours
 - Dive into Deep Learning(Chapter 3. - Chapter 9.): est. 10 hours
 - Assignment: on github.
 
-#### Week 2: Transformers(HuggingFace)
-- Follow the NLP course in hugginface: est 10 hours lesson and 20+ hours implementation
-- Assignment: on github.
+##### Reflection for Milestone 2.1:
+It is unrealistic to complete part 1 in 14 hours. because the steps to get full reward from the class is to watch the video, reproduce the notebookm, and apply the model on different dataset or do the additional assignment.
+I only completed lesson 1-3 and realtead reading. I will adjust the plan to work on lesson, reproduce the result or implementation.
 
-#### Week 3: GenAI - Diffusion(FastAI)
-- Follow all courses in Part 2: 15 hours lesson and 20+ hours implementation
-- Assignment: on github.
+#### Milestone 2.1.2: Neural Networks
+- Videos: Lesson 5
+- Textbook:
+    - 04_mnist_basics
+    - 05_pet_breeds
+    - 06_multicat
+    - 07_sizing_and_tta
+- Project: Feedforward NN for retail dataset (Colab notebook).
 
-#### Week 4: Deep Reinforcement Learning(Simonini Thomas)
+- Small Tasks:
+    - Run 04_mnist_basics.ipynb in Colab
+    - Watch lesson 5
+    - Run 05_pet_breeds notebook and modify dataset
+    - Try 06_multicat for multi-label example
+    - Apply augmentation tricks from 07_sizing_and_tta
+    - Build feedforward NN for retail dataset and upload to Colab
+
+#### Milestone 2.2: Transformers
+##### Milestone 2.2.1: FastAI
+
+- Videos: Lesson 4 (NLP)
+- Textbook:
+    - 10_nlp
+    - 12_nlp_dive
+- Small tasks
+    - Watch Lesson 4 (NLP) video
+    - Run 10_nlp.ipynb
+    - Run 12_nlp_dive.ipynb
+    - Modify the notebook: Use your own small dataset (e.g., sentiment analysis of tweets or movie reviews)
+    - Train a small model
+        - Make predictions on a test set.
+        - Check metrics (accuracy, F1, etc.).
+    - Optional mini-project: Quick Colab notebook of text classifier ready to share or save.
+
+##### Milestone 2.2.2: Hugging Face course (Transformers & Fine-tuning)
+
+- [curriculum](https://huggingface.co/learn/llm-course/chapter1/1)
+- Small Tasks:
+    - Follow Hugging Face Course basics
+        - Load pre-trained models and tokenizers.
+        - Fine-tune on a small text dataset.
+    - Implement a simple chatbot: Use a Mini-GPT model or small GPT2 variant.
+    - Test the model
+        - Have short conversations, log responses.
+    - Optional Deployment
+
+
+#### Milestone 2.3: Diffusion(FastAI)
+
+- Videos: Lesson 8 (CNNs), Lesson 9 (Stable Diffusion)
+- Textbook Chapters:
+    - 13_convolutions → CNN fundamentals
+    - 14_resnet → Residual networks
+    - 15_arch_details → Architecture details
+    - 16_accel_sgd → Accelerated SGD training methods (optional, helps with large models)
+- Small Tasks:
+    - Watch Lesson 8 (CNNs)
+    - Run 13_convolutions & 14_resnet in Colab
+    - Watch Lesson 9 (Stable Diffusion)
+    - Implement a small generative image project using a pre-trained diffusion model
+    - Deploy a design generator via Hugging Face Spaces
+
+#### Milestone 2.4: The Rest of fastai
+
+- Videos: Lesson 6 (Random Forests), Lesson 7 (Collaborative Filtering)
+- Textbook Chapters:
+    - 08_collab → Collaborative filtering
+    - 09_tabular → Tabular models
+    - 11_midlevel_data → Mid-level data API
+- Small Tasks:
+    - Watch deployment & ML breadth videos
+    - Run 08_collab notebook → build recommender
+    - Run 09_tabular notebook → tabular prediction
+    - Explore mid-level API via 11_midlevel_data
+    - Build small applied ML project (e.g., recommender or tabular Kaggle dataset)
+
+#### Milestone 2.5: Deep Reinforcement Learning(Simonini Thomas)
+
 - Follow syllabus [Deep Reinforcement Learning Course](https://simoninithomas.github.io/deep-rl-course/)(8 Units): est. 16 hours lesson and 20+ hours implementation
 - Assignment: on github.
 
-### For month 3: GenAI/MLOps (est. TBD)
+### Milestone 3: GenAI/MLOps (est. TBD)
+
 * Kaggle [5-Day Gen AI Intensive Course](https://www.kaggle.com/learn-guide/5-day-genai)
 
 ## reference resources:
